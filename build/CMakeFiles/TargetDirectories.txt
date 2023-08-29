@@ -1,0 +1,3 @@
+C:/Users/ahmet/Desktop/Tasks/Workspace/build/CMakeFiles/Workspace.dir
+C:/Users/ahmet/Desktop/Tasks/Workspace/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/ahmet/Desktop/Tasks/Workspace/build/CMakeFiles/ZERO_CHECK.dir

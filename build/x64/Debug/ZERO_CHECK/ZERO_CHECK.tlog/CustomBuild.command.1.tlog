@@ -1,0 +1,10 @@
+^C:\USERS\AHMET\DESKTOP\TASKS\WORKSPACE\BUILD\CMAKEFILES\AADAD60F4135BDD1B8CC7B9EA203CEF5\GENERATE.STAMP.RULE
+setlocal
+A:\CMake\bin\cmake.exe -SC:/Users/ahmet/Desktop/Tasks/Workspace -BC:/Users/ahmet/Desktop/Tasks/Workspace/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/ahmet/Desktop/Tasks/Workspace/build/Workspace.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

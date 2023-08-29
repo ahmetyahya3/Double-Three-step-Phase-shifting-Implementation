@@ -1,0 +1,1758 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "A:/CMake/share/cmake-3.27/Modules/CMakeDetermineSystem.cmake:211 (message)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      The system is: Windows - 10.0.19045 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "A:/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "A:/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "A:/CMake/share/cmake-3.27/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: A:/cygwin/cygwin-b20/H-i586-cygwin32/bin/gcc.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
+      
+      The C compiler identification is GNU, found in:
+        C:/Users/ahmet/Desktop/Tasks/Workspace/build/CMakeFiles/3.27.4/CompilerIdC/a.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "A:/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "A:/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "A:/CMake/share/cmake-3.27/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: A:/cygwin/cygwin-b20/H-i586-cygwin32/bin/c++.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
+      
+      The CXX compiler identification is GNU, found in:
+        C:/Users/ahmet/Desktop/Tasks/Workspace/build/CMakeFiles/3.27.4/CompilerIdCXX/a.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "A:/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "A:/CMake/share/cmake-3.27/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/ahmet/Desktop/Tasks/Workspace/build/CMakeFiles/CMakeScratch/TryCompile-s5ouzr"
+      binary: "C:/Users/ahmet/Desktop/Tasks/Workspace/build/CMakeFiles/CMakeScratch/TryCompile-s5ouzr"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/ahmet/Desktop/Tasks/Workspace/build/CMakeFiles/CMakeScratch/TryCompile-s5ouzr'
+        
+        Run Build Command(s): A:/CMake/bin/cmake.exe -E env VERBOSE=1 A:/cygwin/cygwin-b20/H-i586-cygwin32/bin/make.exe -f Makefile cmTC_2d206/fast
+        //A/cygwin/cygwin-b20/H-i586-cygwin32/bin/make.exe  -f CMakeFiles/cmTC_2d206.dir/build.make CMakeFiles/cmTC_2d206.dir/build
+        make.exe: /bin/sh: Command not found
+        make.exe: *** [cmTC_2d206/fast] Error 127
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "A:/CMake/share/cmake-3.27/Modules/CMakeTestCCompiler.cmake:56 (try_compile)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Check for working C compiler: A:/cygwin/cygwin-b20/H-i586-cygwin32/bin/gcc.exe"
+    directories:
+      source: "C:/Users/ahmet/Desktop/Tasks/Workspace/build/CMakeFiles/CMakeScratch/TryCompile-voanhg"
+      binary: "C:/Users/ahmet/Desktop/Tasks/Workspace/build/CMakeFiles/CMakeScratch/TryCompile-voanhg"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_COMPILER_WORKS"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/ahmet/Desktop/Tasks/Workspace/build/CMakeFiles/CMakeScratch/TryCompile-voanhg'
+        
+        Run Build Command(s): A:/CMake/bin/cmake.exe -E env VERBOSE=1 A:/cygwin/cygwin-b20/H-i586-cygwin32/bin/make.exe -f Makefile cmTC_ccc40/fast
+        //A/cygwin/cygwin-b20/H-i586-cygwin32/bin/make.exe  -f CMakeFiles/cmTC_ccc40.dir/build.make CMakeFiles/cmTC_ccc40.dir/build
+        make.exe: /bin/sh: Command not found
+        make.exe: *** [cmTC_ccc40/fast] Error 127
+        
+      exitCode: 2
+...
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "A:/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "A:/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "A:/CMake/share/cmake-3.27/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: A:/cygwin/cygwin-b20/H-i586-cygwin32/bin/gcc.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
+      
+      The C compiler identification is GNU, found in:
+        C:/Users/ahmet/Desktop/Tasks/Workspace/build/CMakeFiles/3.27.4/CompilerIdC/a.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "A:/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "A:/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "A:/CMake/share/cmake-3.27/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: A:/cygwin/cygwin-b20/H-i586-cygwin32/bin/c++.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
+      
+      The CXX compiler identification is GNU, found in:
+        C:/Users/ahmet/Desktop/Tasks/Workspace/build/CMakeFiles/3.27.4/CompilerIdCXX/a.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "A:/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "A:/CMake/share/cmake-3.27/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/ahmet/Desktop/Tasks/Workspace/build/CMakeFiles/CMakeScratch/TryCompile-gefi8v"
+      binary: "C:/Users/ahmet/Desktop/Tasks/Workspace/build/CMakeFiles/CMakeScratch/TryCompile-gefi8v"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/ahmet/Desktop/Tasks/Workspace/build/CMakeFiles/CMakeScratch/TryCompile-gefi8v'
+        
+        Run Build Command(s): A:/CMake/bin/cmake.exe -E env VERBOSE=1 A:/cygwin/cygwin-b20/H-i586-cygwin32/bin/make.exe -f Makefile cmTC_31743/fast
+        //A/cygwin/cygwin-b20/H-i586-cygwin32/bin/make.exe  -f CMakeFiles/cmTC_31743.dir/build.make CMakeFiles/cmTC_31743.dir/build
+        make.exe: /bin/sh: Command not found
+        make.exe: *** [cmTC_31743/fast] Error 127
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "A:/CMake/share/cmake-3.27/Modules/CMakeTestCCompiler.cmake:56 (try_compile)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Check for working C compiler: A:/cygwin/cygwin-b20/H-i586-cygwin32/bin/gcc.exe"
+    directories:
+      source: "C:/Users/ahmet/Desktop/Tasks/Workspace/build/CMakeFiles/CMakeScratch/TryCompile-3dvuby"
+      binary: "C:/Users/ahmet/Desktop/Tasks/Workspace/build/CMakeFiles/CMakeScratch/TryCompile-3dvuby"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_COMPILER_WORKS"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/ahmet/Desktop/Tasks/Workspace/build/CMakeFiles/CMakeScratch/TryCompile-3dvuby'
+        
+        Run Build Command(s): A:/CMake/bin/cmake.exe -E env VERBOSE=1 A:/cygwin/cygwin-b20/H-i586-cygwin32/bin/make.exe -f Makefile cmTC_846ae/fast
+        //A/cygwin/cygwin-b20/H-i586-cygwin32/bin/make.exe  -f CMakeFiles/cmTC_846ae.dir/build.make CMakeFiles/cmTC_846ae.dir/build
+        make.exe: /bin/sh: Command not found
+        make.exe: *** [cmTC_846ae/fast] Error 127
+        
+      exitCode: 2
+...
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "A:/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "A:/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "A:/CMake/share/cmake-3.27/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: A:/cygwin/cygwin-b20/H-i586-cygwin32/bin/gcc.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
+      
+      The C compiler identification is GNU, found in:
+        C:/Users/ahmet/Desktop/Tasks/Workspace/build/CMakeFiles/3.27.4/CompilerIdC/a.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "A:/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "A:/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "A:/CMake/share/cmake-3.27/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: A:/cygwin/cygwin-b20/H-i586-cygwin32/bin/c++.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
+      
+      The CXX compiler identification is GNU, found in:
+        C:/Users/ahmet/Desktop/Tasks/Workspace/build/CMakeFiles/3.27.4/CompilerIdCXX/a.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "A:/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "A:/CMake/share/cmake-3.27/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/ahmet/Desktop/Tasks/Workspace/build/CMakeFiles/CMakeScratch/TryCompile-bqm9rf"
+      binary: "C:/Users/ahmet/Desktop/Tasks/Workspace/build/CMakeFiles/CMakeScratch/TryCompile-bqm9rf"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/ahmet/Desktop/Tasks/Workspace/build/CMakeFiles/CMakeScratch/TryCompile-bqm9rf'
+        
+        Run Build Command(s): A:/CMake/bin/cmake.exe -E env VERBOSE=1 A:/cygwin/cygwin-b20/H-i586-cygwin32/bin/make.exe -f Makefile cmTC_ee5fc/fast
+        //A/cygwin/cygwin-b20/H-i586-cygwin32/bin/make.exe  -f CMakeFiles/cmTC_ee5fc.dir/build.make CMakeFiles/cmTC_ee5fc.dir/build
+        make.exe: /bin/sh: Command not found
+        make.exe: *** [cmTC_ee5fc/fast] Error 127
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "A:/CMake/share/cmake-3.27/Modules/CMakeTestCCompiler.cmake:56 (try_compile)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Check for working C compiler: A:/cygwin/cygwin-b20/H-i586-cygwin32/bin/gcc.exe"
+    directories:
+      source: "C:/Users/ahmet/Desktop/Tasks/Workspace/build/CMakeFiles/CMakeScratch/TryCompile-qm41gy"
+      binary: "C:/Users/ahmet/Desktop/Tasks/Workspace/build/CMakeFiles/CMakeScratch/TryCompile-qm41gy"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_COMPILER_WORKS"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/ahmet/Desktop/Tasks/Workspace/build/CMakeFiles/CMakeScratch/TryCompile-qm41gy'
+        
+        Run Build Command(s): A:/CMake/bin/cmake.exe -E env VERBOSE=1 A:/cygwin/cygwin-b20/H-i586-cygwin32/bin/make.exe -f Makefile cmTC_2de12/fast
+        //A/cygwin/cygwin-b20/H-i586-cygwin32/bin/make.exe  -f CMakeFiles/cmTC_2de12.dir/build.make CMakeFiles/cmTC_2de12.dir/build
+        make.exe: /bin/sh: Command not found
+        make.exe: *** [cmTC_2de12/fast] Error 127
+        
+      exitCode: 2
+...
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "A:/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "A:/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "A:/CMake/share/cmake-3.27/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: A:/cygwin/cygwin-b20/H-i586-cygwin32/bin/gcc.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
+      
+      The C compiler identification is GNU, found in:
+        C:/Users/ahmet/Desktop/Tasks/Workspace/build/CMakeFiles/3.27.4/CompilerIdC/a.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "A:/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "A:/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "A:/CMake/share/cmake-3.27/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: A:/cygwin/cygwin-b20/H-i586-cygwin32/bin/c++.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
+      
+      The CXX compiler identification is GNU, found in:
+        C:/Users/ahmet/Desktop/Tasks/Workspace/build/CMakeFiles/3.27.4/CompilerIdCXX/a.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "A:/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "A:/CMake/share/cmake-3.27/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/ahmet/Desktop/Tasks/Workspace/build/CMakeFiles/CMakeScratch/TryCompile-pbd6kj"
+      binary: "C:/Users/ahmet/Desktop/Tasks/Workspace/build/CMakeFiles/CMakeScratch/TryCompile-pbd6kj"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/ahmet/Desktop/Tasks/Workspace/build/CMakeFiles/CMakeScratch/TryCompile-pbd6kj'
+        
+        Run Build Command(s): A:/CMake/bin/cmake.exe -E env VERBOSE=1 A:/cygwin/cygwin-b20/H-i586-cygwin32/bin/make.exe -f Makefile cmTC_71742/fast
+        //A/cygwin/cygwin-b20/H-i586-cygwin32/bin/make.exe  -f CMakeFiles/cmTC_71742.dir/build.make CMakeFiles/cmTC_71742.dir/build
+        make.exe: /bin/sh: Command not found
+        make.exe: *** [cmTC_71742/fast] Error 127
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "A:/CMake/share/cmake-3.27/Modules/CMakeTestCCompiler.cmake:56 (try_compile)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Check for working C compiler: A:/cygwin/cygwin-b20/H-i586-cygwin32/bin/gcc.exe"
+    directories:
+      source: "C:/Users/ahmet/Desktop/Tasks/Workspace/build/CMakeFiles/CMakeScratch/TryCompile-h1v85p"
+      binary: "C:/Users/ahmet/Desktop/Tasks/Workspace/build/CMakeFiles/CMakeScratch/TryCompile-h1v85p"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_COMPILER_WORKS"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/ahmet/Desktop/Tasks/Workspace/build/CMakeFiles/CMakeScratch/TryCompile-h1v85p'
+        
+        Run Build Command(s): A:/CMake/bin/cmake.exe -E env VERBOSE=1 A:/cygwin/cygwin-b20/H-i586-cygwin32/bin/make.exe -f Makefile cmTC_d1284/fast
+        //A/cygwin/cygwin-b20/H-i586-cygwin32/bin/make.exe  -f CMakeFiles/cmTC_d1284.dir/build.make CMakeFiles/cmTC_d1284.dir/build
+        make.exe: /bin/sh: Command not found
+        make.exe: *** [cmTC_d1284/fast] Error 127
+        
+      exitCode: 2
+...
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "A:/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "A:/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "A:/CMake/share/cmake-3.27/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: A:/cygwin/cygwin-b20/H-i586-cygwin32/bin/gcc.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
+      
+      The C compiler identification is GNU, found in:
+        C:/Users/ahmet/Desktop/Tasks/Workspace/build/CMakeFiles/3.27.4/CompilerIdC/a.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "A:/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "A:/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "A:/CMake/share/cmake-3.27/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: A:/cygwin/cygwin-b20/H-i586-cygwin32/bin/c++.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
+      
+      The CXX compiler identification is GNU, found in:
+        C:/Users/ahmet/Desktop/Tasks/Workspace/build/CMakeFiles/3.27.4/CompilerIdCXX/a.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "A:/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "A:/CMake/share/cmake-3.27/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/ahmet/Desktop/Tasks/Workspace/build/CMakeFiles/CMakeScratch/TryCompile-18x8xp"
+      binary: "C:/Users/ahmet/Desktop/Tasks/Workspace/build/CMakeFiles/CMakeScratch/TryCompile-18x8xp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/ahmet/Desktop/Tasks/Workspace/build/CMakeFiles/CMakeScratch/TryCompile-18x8xp'
+        
+        Run Build Command(s): A:/CMake/bin/cmake.exe -E env VERBOSE=1 A:/cygwin/cygwin-b20/H-i586-cygwin32/bin/make.exe -f Makefile cmTC_1a73d/fast
+        //A/cygwin/cygwin-b20/H-i586-cygwin32/bin/make.exe  -f CMakeFiles/cmTC_1a73d.dir/build.make CMakeFiles/cmTC_1a73d.dir/build
+        make.exe: /bin/sh: Command not found
+        make.exe: *** [cmTC_1a73d/fast] Error 127
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "A:/CMake/share/cmake-3.27/Modules/CMakeTestCCompiler.cmake:56 (try_compile)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Check for working C compiler: A:/cygwin/cygwin-b20/H-i586-cygwin32/bin/gcc.exe"
+    directories:
+      source: "C:/Users/ahmet/Desktop/Tasks/Workspace/build/CMakeFiles/CMakeScratch/TryCompile-hlj1ng"
+      binary: "C:/Users/ahmet/Desktop/Tasks/Workspace/build/CMakeFiles/CMakeScratch/TryCompile-hlj1ng"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_COMPILER_WORKS"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/ahmet/Desktop/Tasks/Workspace/build/CMakeFiles/CMakeScratch/TryCompile-hlj1ng'
+        
+        Run Build Command(s): A:/CMake/bin/cmake.exe -E env VERBOSE=1 A:/cygwin/cygwin-b20/H-i586-cygwin32/bin/make.exe -f Makefile cmTC_a691e/fast
+        //A/cygwin/cygwin-b20/H-i586-cygwin32/bin/make.exe  -f CMakeFiles/cmTC_a691e.dir/build.make CMakeFiles/cmTC_a691e.dir/build
+        make.exe: /bin/sh: Command not found
+        make.exe: *** [cmTC_a691e/fast] Error 127
+        
+      exitCode: 2
+...
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "A:/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "A:/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "A:/CMake/share/cmake-3.27/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: A:/cygwin/cygwin-b20/H-i586-cygwin32/bin/gcc.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
+      
+      The C compiler identification is GNU, found in:
+        C:/Users/ahmet/Desktop/Tasks/Workspace/build/CMakeFiles/3.27.4/CompilerIdC/a.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "A:/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "A:/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "A:/CMake/share/cmake-3.27/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: A:/cygwin/cygwin-b20/H-i586-cygwin32/bin/c++.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
+      
+      The CXX compiler identification is GNU, found in:
+        C:/Users/ahmet/Desktop/Tasks/Workspace/build/CMakeFiles/3.27.4/CompilerIdCXX/a.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "A:/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "A:/CMake/share/cmake-3.27/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/ahmet/Desktop/Tasks/Workspace/build/CMakeFiles/CMakeScratch/TryCompile-tmtj1c"
+      binary: "C:/Users/ahmet/Desktop/Tasks/Workspace/build/CMakeFiles/CMakeScratch/TryCompile-tmtj1c"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/ahmet/Desktop/Tasks/Workspace/build/CMakeFiles/CMakeScratch/TryCompile-tmtj1c'
+        
+        Run Build Command(s): A:/CMake/bin/cmake.exe -E env VERBOSE=1 A:/cygwin/cygwin-b20/H-i586-cygwin32/bin/make.exe -f Makefile cmTC_adacb/fast
+        //A/cygwin/cygwin-b20/H-i586-cygwin32/bin/make.exe  -f CMakeFiles/cmTC_adacb.dir/build.make CMakeFiles/cmTC_adacb.dir/build
+        
+        [main] A:\\cygwin\\cygwin-b20\\H-i586-cygwin32\\bin\\make.exe 1000 (0) sync_with_child: child 15084(0x194) died before initialization with status code 0x1
+        [main] make 1000 (0) sync_with_child: *** child state waiting for longjmp
+        make.exe: vfork: No more processes
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "A:/CMake/share/cmake-3.27/Modules/CMakeTestCCompiler.cmake:56 (try_compile)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Check for working C compiler: A:/cygwin/cygwin-b20/H-i586-cygwin32/bin/gcc.exe"
+    directories:
+      source: "C:/Users/ahmet/Desktop/Tasks/Workspace/build/CMakeFiles/CMakeScratch/TryCompile-68urai"
+      binary: "C:/Users/ahmet/Desktop/Tasks/Workspace/build/CMakeFiles/CMakeScratch/TryCompile-68urai"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_COMPILER_WORKS"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/ahmet/Desktop/Tasks/Workspace/build/CMakeFiles/CMakeScratch/TryCompile-68urai'
+        
+        Run Build Command(s): A:/CMake/bin/cmake.exe -E env VERBOSE=1 A:/cygwin/cygwin-b20/H-i586-cygwin32/bin/make.exe -f Makefile cmTC_8fcfb/fast
+        //A/cygwin/cygwin-b20/H-i586-cygwin32/bin/make.exe  -f CMakeFiles/cmTC_8fcfb.dir/build.make CMakeFiles/cmTC_8fcfb.dir/build
+        make.exe: /bin/sh: Command not found
+        make.exe: *** [cmTC_8fcfb/fast] Error 127
+        
+      exitCode: 2
+...
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "A:/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "A:/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "A:/CMake/share/cmake-3.27/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: A:/cygwin/cygwin-b20/H-i586-cygwin32/bin/gcc.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
+      
+      The C compiler identification is GNU, found in:
+        C:/Users/ahmet/Desktop/Tasks/Workspace/build/CMakeFiles/3.27.4/CompilerIdC/a.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "A:/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "A:/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "A:/CMake/share/cmake-3.27/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: A:/cygwin/cygwin-b20/H-i586-cygwin32/bin/c++.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
+      
+      The CXX compiler identification is GNU, found in:
+        C:/Users/ahmet/Desktop/Tasks/Workspace/build/CMakeFiles/3.27.4/CompilerIdCXX/a.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "A:/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "A:/CMake/share/cmake-3.27/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/ahmet/Desktop/Tasks/Workspace/build/CMakeFiles/CMakeScratch/TryCompile-n9qiu9"
+      binary: "C:/Users/ahmet/Desktop/Tasks/Workspace/build/CMakeFiles/CMakeScratch/TryCompile-n9qiu9"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/ahmet/Desktop/Tasks/Workspace/build/CMakeFiles/CMakeScratch/TryCompile-n9qiu9'
+        
+        Run Build Command(s): A:/CMake/bin/cmake.exe -E env VERBOSE=1 A:/cygwin/cygwin-b20/H-i586-cygwin32/bin/make.exe -f Makefile cmTC_1c8ac/fast
+        //A/cygwin/cygwin-b20/H-i586-cygwin32/bin/make.exe  -f CMakeFiles/cmTC_1c8ac.dir/build.make CMakeFiles/cmTC_1c8ac.dir/build
+        make.exe: /bin/sh: Command not found
+        make.exe: *** [cmTC_1c8ac/fast] Error 127
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "A:/CMake/share/cmake-3.27/Modules/CMakeTestCCompiler.cmake:56 (try_compile)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Check for working C compiler: A:/cygwin/cygwin-b20/H-i586-cygwin32/bin/gcc.exe"
+    directories:
+      source: "C:/Users/ahmet/Desktop/Tasks/Workspace/build/CMakeFiles/CMakeScratch/TryCompile-wxppra"
+      binary: "C:/Users/ahmet/Desktop/Tasks/Workspace/build/CMakeFiles/CMakeScratch/TryCompile-wxppra"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_COMPILER_WORKS"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/ahmet/Desktop/Tasks/Workspace/build/CMakeFiles/CMakeScratch/TryCompile-wxppra'
+        
+        Run Build Command(s): A:/CMake/bin/cmake.exe -E env VERBOSE=1 A:/cygwin/cygwin-b20/H-i586-cygwin32/bin/make.exe -f Makefile cmTC_2e946/fast
+        //A/cygwin/cygwin-b20/H-i586-cygwin32/bin/make.exe  -f CMakeFiles/cmTC_2e946.dir/build.make CMakeFiles/cmTC_2e946.dir/build
+        make.exe: /bin/sh: Command not found
+        make.exe: *** [cmTC_2e946/fast] Error 127
+        
+      exitCode: 2
+...
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "A:/CMake/share/cmake-3.27/Modules/CMakeDetermineSystem.cmake:211 (message)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      The system is: Windows - 10.0.19045 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "A:/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "A:/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "A:/CMake/share/cmake-3.27/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: A:/g++/mingw64/bin/gcc.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
+      
+      The C compiler identification is GNU, found in:
+        C:/Users/ahmet/Desktop/Tasks/Workspace/build/CMakeFiles/3.27.4/CompilerIdC/a.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "A:/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "A:/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "A:/CMake/share/cmake-3.27/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: A:/g++/mingw64/bin/g++.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
+      
+      The CXX compiler identification is GNU, found in:
+        C:/Users/ahmet/Desktop/Tasks/Workspace/build/CMakeFiles/3.27.4/CompilerIdCXX/a.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "A:/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "A:/CMake/share/cmake-3.27/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/ahmet/Desktop/Tasks/Workspace/build/CMakeFiles/CMakeScratch/TryCompile-x7qn8e"
+      binary: "C:/Users/ahmet/Desktop/Tasks/Workspace/build/CMakeFiles/CMakeScratch/TryCompile-x7qn8e"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/ahmet/Desktop/Tasks/Workspace/build/CMakeFiles/CMakeScratch/TryCompile-x7qn8e'
+        
+        Run Build Command(s): A:/CMake/bin/cmake.exe -E env VERBOSE=1 A:/g++/mingw64/bin/mingw32-make.exe -f Makefile cmTC_a706b/fast
+        A:/g++/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_a706b.dir\\build.make CMakeFiles/cmTC_a706b.dir/build
+        mingw32-make[1]: Entering directory 'C:/Users/ahmet/Desktop/Tasks/Workspace/build/CMakeFiles/CMakeScratch/TryCompile-x7qn8e'
+        Building C object CMakeFiles/cmTC_a706b.dir/CMakeCCompilerABI.c.obj
+        A:\\g++\\mingw64\\bin\\gcc.exe   -v -o CMakeFiles\\cmTC_a706b.dir\\CMakeCCompilerABI.c.obj -c A:\\CMake\\share\\cmake-3.27\\Modules\\CMakeCCompilerABI.c
+        Using built-in specs.
+        COLLECT_GCC=A:\\g++\\mingw64\\bin\\gcc.exe
+        Target: x86_64-w64-mingw32
+        Configured with: ../gcc-13.1.0/configure --prefix=/mingw64 --with-local-prefix=/mingw64/local --build=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --with-native-system-header-dir=/mingw64/include --libexecdir=/mingw64/lib --enable-bootstrap --enable-checking=release --with-arch=nocona --with-tune=generic --enable-languages=c,lto,c++,fortran,ada,objc,obj-c++,jit --enable-shared --enable-static --enable-libatomic --enable-threads=posix --enable-graphite --enable-fully-dynamic-string --enable-libstdcxx-filesystem-ts --enable-libstdcxx-time --disable-libstdcxx-pch --enable-lto --enable-libgomp --disable-libssp --disable-multilib --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-libiconv --with-system-zlib --with-gmp=/mingw64 --with-mpfr=/mingw64 --with-mpc=/mingw64 --with-isl=/mingw64 --with-pkgversion='Rev7, Built by MSYS2 project' --with-bugurl=https://github.com/msys2/MINGW-packages/issues --with-gnu-as --with-gnu-ld --disable-libstdcxx-debug --with-boot-ldflags=-static-libstdc++ --with-stage1-ldflags=-static-libstdc++
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 13.1.0 (Rev7, Built by MSYS2 project) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_a706b.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_a706b.dir\\'
+         A:/g++/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/cc1.exe -quiet -v -iprefix A:/g++/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/ -D_REENTRANT A:\\CMake\\share\\cmake-3.27\\Modules\\CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles\\cmTC_a706b.dir\\ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=nocona -version -o C:\\Users\\ahmet\\AppData\\Local\\Temp\\ccZG7D8b.s
+        GNU C17 (Rev7, Built by MSYS2 project) version 13.1.0 (x86_64-w64-mingw32)
+        	compiled by GNU C version 13.1.0, GMP version 6.2.1, MPFR version 4.2.0-p9, MPC version 1.3.1, isl version isl-0.26-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring nonexistent directory "A:/g++/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"
+        ignoring duplicate directory "A:/g++/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/include"
+        ignoring nonexistent directory "D:/a/msys64/mingw64/include"
+        ignoring nonexistent directory "/mingw64/include"
+        ignoring duplicate directory "A:/g++/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"
+        ignoring nonexistent directory "A:/g++/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"
+        ignoring nonexistent directory "D:/a/msys64/mingw64/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         A:/g++/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include
+         A:/g++/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include
+         A:/g++/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed
+        End of search list.
+        Compiler executable checksum: 79cd6bb259be143c9b3acca47f926a3f
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_a706b.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_a706b.dir\\'
+         A:/g++/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_a706b.dir\\CMakeCCompilerABI.c.obj C:\\Users\\ahmet\\AppData\\Local\\Temp\\ccZG7D8b.s
+        GNU assembler version 2.40 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.40
+        COMPILER_PATH=A:/g++/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/;A:/g++/mingw64/bin/../lib/gcc/;A:/g++/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/
+        LIBRARY_PATH=A:/g++/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/;A:/g++/mingw64/bin/../lib/gcc/;A:/g++/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/;A:/g++/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/;A:/g++/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/;A:/g++/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_a706b.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_a706b.dir\\CMakeCCompilerABI.c.'
+        Linking C executable cmTC_a706b.exe
+        A:\\CMake\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_a706b.dir\\link.txt --verbose=1
+        A:\\CMake\\bin\\cmake.exe -E rm -f CMakeFiles\\cmTC_a706b.dir/objects.a
+        A:\\g++\\mingw64\\bin\\ar.exe qc CMakeFiles\\cmTC_a706b.dir/objects.a @CMakeFiles\\cmTC_a706b.dir\\objects1.rsp
+        A:\\g++\\mingw64\\bin\\gcc.exe  -v -Wl,--whole-archive CMakeFiles\\cmTC_a706b.dir/objects.a -Wl,--no-whole-archive -o cmTC_a706b.exe -Wl,--out-implib,libcmTC_a706b.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+        Using built-in specs.
+        COLLECT_GCC=A:\\g++\\mingw64\\bin\\gcc.exe
+        COLLECT_LTO_WRAPPER=A:/g++/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/lto-wrapper.exe
+        Target: x86_64-w64-mingw32
+        Configured with: ../gcc-13.1.0/configure --prefix=/mingw64 --with-local-prefix=/mingw64/local --build=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --with-native-system-header-dir=/mingw64/include --libexecdir=/mingw64/lib --enable-bootstrap --enable-checking=release --with-arch=nocona --with-tune=generic --enable-languages=c,lto,c++,fortran,ada,objc,obj-c++,jit --enable-shared --enable-static --enable-libatomic --enable-threads=posix --enable-graphite --enable-fully-dynamic-string --enable-libstdcxx-filesystem-ts --enable-libstdcxx-time --disable-libstdcxx-pch --enable-lto --enable-libgomp --disable-libssp --disable-multilib --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-libiconv --with-system-zlib --with-gmp=/mingw64 --with-mpfr=/mingw64 --with-mpc=/mingw64 --with-isl=/mingw64 --with-pkgversion='Rev7, Built by MSYS2 project' --with-bugurl=https://github.com/msys2/MINGW-packages/issues --with-gnu-as --with-gnu-ld --disable-libstdcxx-debug --with-boot-ldflags=-static-libstdc++ --with-stage1-ldflags=-static-libstdc++
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 13.1.0 (Rev7, Built by MSYS2 project) 
+        COMPILER_PATH=A:/g++/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/;A:/g++/mingw64/bin/../lib/gcc/;A:/g++/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/
+        LIBRARY_PATH=A:/g++/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/;A:/g++/mingw64/bin/../lib/gcc/;A:/g++/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/;A:/g++/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/;A:/g++/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/;A:/g++/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_a706b.exe' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_a706b.'
+         A:/g++/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/collect2.exe -plugin A:/g++/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/liblto_plugin.dll -plugin-opt=A:/g++/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\ahmet\\AppData\\Local\\Temp\\ccNswtgn.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_a706b.exe A:/g++/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/crt2.o A:/g++/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o -LA:/g++/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0 -LA:/g++/mingw64/bin/../lib/gcc -LA:/g++/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LA:/g++/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib -LA:/g++/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib -LA:/g++/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../.. --whole-archive CMakeFiles\\cmTC_a706b.dir/objects.a --no-whole-archive --out-implib libcmTC_a706b.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 A:/g++/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/default-manifest.o A:/g++/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_a706b.exe' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_a706b.'
+        mingw32-make[1]: Leaving directory 'C:/Users/ahmet/Desktop/Tasks/Workspace/build/CMakeFiles/CMakeScratch/TryCompile-x7qn8e'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "A:/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
+      - "A:/CMake/share/cmake-3.27/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [A:/g++/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include]
+          add: [A:/g++/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include]
+          add: [A:/g++/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed]
+        end of search list found
+        collapse include dir [A:/g++/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include] ==> [A:/g++/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include]
+        collapse include dir [A:/g++/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include] ==> [A:/g++/mingw64/include]
+        collapse include dir [A:/g++/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed] ==> [A:/g++/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed]
+        implicit include dirs: [A:/g++/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include;A:/g++/mingw64/include;A:/g++/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "A:/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:152 (message)"
+      - "A:/CMake/share/cmake-3.27/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld\\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: 'C:/Users/ahmet/Desktop/Tasks/Workspace/build/CMakeFiles/CMakeScratch/TryCompile-x7qn8e']
+        ignore line: []
+        ignore line: [Run Build Command(s): A:/CMake/bin/cmake.exe -E env VERBOSE=1 A:/g++/mingw64/bin/mingw32-make.exe -f Makefile cmTC_a706b/fast]
+        ignore line: [A:/g++/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_a706b.dir\\build.make CMakeFiles/cmTC_a706b.dir/build]
+        ignore line: [mingw32-make[1]: Entering directory 'C:/Users/ahmet/Desktop/Tasks/Workspace/build/CMakeFiles/CMakeScratch/TryCompile-x7qn8e']
+        ignore line: [Building C object CMakeFiles/cmTC_a706b.dir/CMakeCCompilerABI.c.obj]
+        ignore line: [A:\\g++\\mingw64\\bin\\gcc.exe   -v -o CMakeFiles\\cmTC_a706b.dir\\CMakeCCompilerABI.c.obj -c A:\\CMake\\share\\cmake-3.27\\Modules\\CMakeCCompilerABI.c]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=A:\\g++\\mingw64\\bin\\gcc.exe]
+        ignore line: [Target: x86_64-w64-mingw32]
+        ignore line: [Configured with: ../gcc-13.1.0/configure --prefix=/mingw64 --with-local-prefix=/mingw64/local --build=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --with-native-system-header-dir=/mingw64/include --libexecdir=/mingw64/lib --enable-bootstrap --enable-checking=release --with-arch=nocona --with-tune=generic --enable-languages=c,lto,c++,fortran,ada,objc,obj-c++,jit --enable-shared --enable-static --enable-libatomic --enable-threads=posix --enable-graphite --enable-fully-dynamic-string --enable-libstdcxx-filesystem-ts --enable-libstdcxx-time --disable-libstdcxx-pch --enable-lto --enable-libgomp --disable-libssp --disable-multilib --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-libiconv --with-system-zlib --with-gmp=/mingw64 --with-mpfr=/mingw64 --with-mpc=/mingw64 --with-isl=/mingw64 --with-pkgversion='Rev7, Built by MSYS2 project' --with-bugurl=https://github.com/msys2/MINGW-packages/issues --with-gnu-as --with-gnu-ld --disable-libstdcxx-debug --with-boot-ldflags=-static-libstdc++ --with-stage1-ldflags=-static-libstdc++]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 13.1.0 (Rev7  Built by MSYS2 project) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_a706b.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_a706b.dir\\']
+        ignore line: [ A:/g++/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/cc1.exe -quiet -v -iprefix A:/g++/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/ -D_REENTRANT A:\\CMake\\share\\cmake-3.27\\Modules\\CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles\\cmTC_a706b.dir\\ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=nocona -version -o C:\\Users\\ahmet\\AppData\\Local\\Temp\\ccZG7D8b.s]
+        ignore line: [GNU C17 (Rev7  Built by MSYS2 project) version 13.1.0 (x86_64-w64-mingw32)]
+        ignore line: [	compiled by GNU C version 13.1.0  GMP version 6.2.1  MPFR version 4.2.0-p9  MPC version 1.3.1  isl version isl-0.26-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring nonexistent directory "A:/g++/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"]
+        ignore line: [ignoring duplicate directory "A:/g++/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/include"]
+        ignore line: [ignoring nonexistent directory "D:/a/msys64/mingw64/include"]
+        ignore line: [ignoring nonexistent directory "/mingw64/include"]
+        ignore line: [ignoring duplicate directory "A:/g++/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"]
+        ignore line: [ignoring nonexistent directory "A:/g++/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"]
+        ignore line: [ignoring nonexistent directory "D:/a/msys64/mingw64/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ A:/g++/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include]
+        ignore line: [ A:/g++/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include]
+        ignore line: [ A:/g++/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed]
+        ignore line: [End of search list.]
+        ignore line: [Compiler executable checksum: 79cd6bb259be143c9b3acca47f926a3f]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_a706b.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_a706b.dir\\']
+        ignore line: [ A:/g++/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_a706b.dir\\CMakeCCompilerABI.c.obj C:\\Users\\ahmet\\AppData\\Local\\Temp\\ccZG7D8b.s]
+        ignore line: [GNU assembler version 2.40 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.40]
+        ignore line: [COMPILER_PATH=A:/g++/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/]
+        ignore line: [A:/g++/mingw64/bin/../lib/gcc/]
+        ignore line: [A:/g++/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/]
+        ignore line: [LIBRARY_PATH=A:/g++/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/]
+        ignore line: [A:/g++/mingw64/bin/../lib/gcc/]
+        ignore line: [A:/g++/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/]
+        ignore line: [A:/g++/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/]
+        ignore line: [A:/g++/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/]
+        ignore line: [A:/g++/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_a706b.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_a706b.dir\\CMakeCCompilerABI.c.']
+        ignore line: [Linking C executable cmTC_a706b.exe]
+        ignore line: [A:\\CMake\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_a706b.dir\\link.txt --verbose=1]
+        ignore line: [A:\\CMake\\bin\\cmake.exe -E rm -f CMakeFiles\\cmTC_a706b.dir/objects.a]
+        ignore line: [A:\\g++\\mingw64\\bin\\ar.exe qc CMakeFiles\\cmTC_a706b.dir/objects.a @CMakeFiles\\cmTC_a706b.dir\\objects1.rsp]
+        ignore line: [A:\\g++\\mingw64\\bin\\gcc.exe  -v -Wl --whole-archive CMakeFiles\\cmTC_a706b.dir/objects.a -Wl --no-whole-archive -o cmTC_a706b.exe -Wl --out-implib libcmTC_a706b.dll.a -Wl --major-image-version 0 --minor-image-version 0 ]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=A:\\g++\\mingw64\\bin\\gcc.exe]
+        ignore line: [COLLECT_LTO_WRAPPER=A:/g++/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/lto-wrapper.exe]
+        ignore line: [Target: x86_64-w64-mingw32]
+        ignore line: [Configured with: ../gcc-13.1.0/configure --prefix=/mingw64 --with-local-prefix=/mingw64/local --build=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --with-native-system-header-dir=/mingw64/include --libexecdir=/mingw64/lib --enable-bootstrap --enable-checking=release --with-arch=nocona --with-tune=generic --enable-languages=c,lto,c++,fortran,ada,objc,obj-c++,jit --enable-shared --enable-static --enable-libatomic --enable-threads=posix --enable-graphite --enable-fully-dynamic-string --enable-libstdcxx-filesystem-ts --enable-libstdcxx-time --disable-libstdcxx-pch --enable-lto --enable-libgomp --disable-libssp --disable-multilib --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-libiconv --with-system-zlib --with-gmp=/mingw64 --with-mpfr=/mingw64 --with-mpc=/mingw64 --with-isl=/mingw64 --with-pkgversion='Rev7, Built by MSYS2 project' --with-bugurl=https://github.com/msys2/MINGW-packages/issues --with-gnu-as --with-gnu-ld --disable-libstdcxx-debug --with-boot-ldflags=-static-libstdc++ --with-stage1-ldflags=-static-libstdc++]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 13.1.0 (Rev7  Built by MSYS2 project) ]
+        ignore line: [COMPILER_PATH=A:/g++/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/]
+        ignore line: [A:/g++/mingw64/bin/../lib/gcc/]
+        ignore line: [A:/g++/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/]
+        ignore line: [LIBRARY_PATH=A:/g++/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/]
+        ignore line: [A:/g++/mingw64/bin/../lib/gcc/]
+        ignore line: [A:/g++/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/]
+        ignore line: [A:/g++/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/]
+        ignore line: [A:/g++/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/]
+        ignore line: [A:/g++/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_a706b.exe' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_a706b.']
+        link line: [ A:/g++/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/collect2.exe -plugin A:/g++/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/liblto_plugin.dll -plugin-opt=A:/g++/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\ahmet\\AppData\\Local\\Temp\\ccNswtgn.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_a706b.exe A:/g++/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/crt2.o A:/g++/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o -LA:/g++/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0 -LA:/g++/mingw64/bin/../lib/gcc -LA:/g++/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LA:/g++/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib -LA:/g++/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib -LA:/g++/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../.. --whole-archive CMakeFiles\\cmTC_a706b.dir/objects.a --no-whole-archive --out-implib libcmTC_a706b.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 A:/g++/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/default-manifest.o A:/g++/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o]
+          arg [A:/g++/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/collect2.exe] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [A:/g++/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/liblto_plugin.dll] ==> ignore
+          arg [-plugin-opt=A:/g++/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/lto-wrapper.exe] ==> ignore
+          arg [-plugin-opt=-fresolution=C:\\Users\\ahmet\\AppData\\Local\\Temp\\ccNswtgn.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_eh] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmoldname] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
+          arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lpthread] ==> ignore
+          arg [-plugin-opt=-pass-through=-ladvapi32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lshell32] ==> ignore
+          arg [-plugin-opt=-pass-through=-luser32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_eh] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmoldname] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
+          arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+          arg [-m] ==> ignore
+          arg [i386pep] ==> ignore
+          arg [-Bdynamic] ==> search dynamic
+          arg [-o] ==> ignore
+          arg [cmTC_a706b.exe] ==> ignore
+          arg [A:/g++/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/crt2.o] ==> obj [A:/g++/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/crt2.o]
+          arg [A:/g++/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o] ==> obj [A:/g++/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o]
+          arg [-LA:/g++/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0] ==> dir [A:/g++/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0]
+          arg [-LA:/g++/mingw64/bin/../lib/gcc] ==> dir [A:/g++/mingw64/bin/../lib/gcc]
+          arg [-LA:/g++/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib] ==> dir [A:/g++/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib]
+          arg [-LA:/g++/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib] ==> dir [A:/g++/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib]
+          arg [-LA:/g++/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib] ==> dir [A:/g++/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib]
+          arg [-LA:/g++/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../..] ==> dir [A:/g++/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../..]
+          arg [--whole-archive] ==> ignore
+          arg [CMakeFiles\\cmTC_a706b.dir/objects.a] ==> ignore
+          arg [--no-whole-archive] ==> ignore
+          arg [--out-implib] ==> ignore
+          arg [libcmTC_a706b.dll.a] ==> ignore
+          arg [--major-image-version] ==> ignore
+          arg [0] ==> ignore
+          arg [--minor-image-version] ==> ignore
+          arg [0] ==> ignore
+          arg [-lmingw32] ==> lib [mingw32]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lgcc_eh] ==> lib [gcc_eh]
+          arg [-lmoldname] ==> lib [moldname]
+          arg [-lmingwex] ==> lib [mingwex]
+          arg [-lmsvcrt] ==> lib [msvcrt]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [-lpthread] ==> lib [pthread]
+          arg [-ladvapi32] ==> lib [advapi32]
+          arg [-lshell32] ==> lib [shell32]
+          arg [-luser32] ==> lib [user32]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [-lmingw32] ==> lib [mingw32]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lgcc_eh] ==> lib [gcc_eh]
+          arg [-lmoldname] ==> lib [moldname]
+          arg [-lmingwex] ==> lib [mingwex]
+          arg [-lmsvcrt] ==> lib [msvcrt]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [A:/g++/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/default-manifest.o] ==> obj [A:/g++/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/default-manifest.o]
+          arg [A:/g++/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o] ==> obj [A:/g++/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o]
+        remove lib [gcc_eh]
+        remove lib [msvcrt]
+        remove lib [gcc_eh]
+        remove lib [msvcrt]
+        collapse obj [A:/g++/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/crt2.o] ==> [A:/g++/mingw64/lib/crt2.o]
+        collapse obj [A:/g++/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o] ==> [A:/g++/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o]
+        collapse obj [A:/g++/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/default-manifest.o] ==> [A:/g++/mingw64/lib/default-manifest.o]
+        collapse obj [A:/g++/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o] ==> [A:/g++/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o]
+        collapse library dir [A:/g++/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0] ==> [A:/g++/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0]
+        collapse library dir [A:/g++/mingw64/bin/../lib/gcc] ==> [A:/g++/mingw64/lib/gcc]
+        collapse library dir [A:/g++/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib] ==> [A:/g++/mingw64/x86_64-w64-mingw32/lib]
+        collapse library dir [A:/g++/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib] ==> [A:/g++/mingw64/lib]
+        collapse library dir [A:/g++/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib] ==> [A:/g++/mingw64/x86_64-w64-mingw32/lib]
+        collapse library dir [A:/g++/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../..] ==> [A:/g++/mingw64/lib]
+        implicit libs: [mingw32;gcc;moldname;mingwex;kernel32;pthread;advapi32;shell32;user32;kernel32;mingw32;gcc;moldname;mingwex;kernel32]
+        implicit objs: [A:/g++/mingw64/lib/crt2.o;A:/g++/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o;A:/g++/mingw64/lib/default-manifest.o;A:/g++/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o]
+        implicit dirs: [A:/g++/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0;A:/g++/mingw64/lib/gcc;A:/g++/mingw64/x86_64-w64-mingw32/lib;A:/g++/mingw64/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "A:/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "A:/CMake/share/cmake-3.27/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Users/ahmet/Desktop/Tasks/Workspace/build/CMakeFiles/CMakeScratch/TryCompile-edtc28"
+      binary: "C:/Users/ahmet/Desktop/Tasks/Workspace/build/CMakeFiles/CMakeScratch/TryCompile-edtc28"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/ahmet/Desktop/Tasks/Workspace/build/CMakeFiles/CMakeScratch/TryCompile-edtc28'
+        
+        Run Build Command(s): A:/CMake/bin/cmake.exe -E env VERBOSE=1 A:/g++/mingw64/bin/mingw32-make.exe -f Makefile cmTC_efb7f/fast
+        A:/g++/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_efb7f.dir\\build.make CMakeFiles/cmTC_efb7f.dir/build
+        mingw32-make[1]: Entering directory 'C:/Users/ahmet/Desktop/Tasks/Workspace/build/CMakeFiles/CMakeScratch/TryCompile-edtc28'
+        Building CXX object CMakeFiles/cmTC_efb7f.dir/CMakeCXXCompilerABI.cpp.obj
+        A:\\g++\\mingw64\\bin\\g++.exe   -v -o CMakeFiles\\cmTC_efb7f.dir\\CMakeCXXCompilerABI.cpp.obj -c A:\\CMake\\share\\cmake-3.27\\Modules\\CMakeCXXCompilerABI.cpp
+        Using built-in specs.
+        COLLECT_GCC=A:\\g++\\mingw64\\bin\\g++.exe
+        Target: x86_64-w64-mingw32
+        Configured with: ../gcc-13.1.0/configure --prefix=/mingw64 --with-local-prefix=/mingw64/local --build=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --with-native-system-header-dir=/mingw64/include --libexecdir=/mingw64/lib --enable-bootstrap --enable-checking=release --with-arch=nocona --with-tune=generic --enable-languages=c,lto,c++,fortran,ada,objc,obj-c++,jit --enable-shared --enable-static --enable-libatomic --enable-threads=posix --enable-graphite --enable-fully-dynamic-string --enable-libstdcxx-filesystem-ts --enable-libstdcxx-time --disable-libstdcxx-pch --enable-lto --enable-libgomp --disable-libssp --disable-multilib --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-libiconv --with-system-zlib --with-gmp=/mingw64 --with-mpfr=/mingw64 --with-mpc=/mingw64 --with-isl=/mingw64 --with-pkgversion='Rev7, Built by MSYS2 project' --with-bugurl=https://github.com/msys2/MINGW-packages/issues --with-gnu-as --with-gnu-ld --disable-libstdcxx-debug --with-boot-ldflags=-static-libstdc++ --with-stage1-ldflags=-static-libstdc++
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 13.1.0 (Rev7, Built by MSYS2 project) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_efb7f.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_efb7f.dir\\'
+         A:/g++/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/cc1plus.exe -quiet -v -iprefix A:/g++/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/ -D_REENTRANT A:\\CMake\\share\\cmake-3.27\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\\cmTC_efb7f.dir\\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=nocona -version -o C:\\Users\\ahmet\\AppData\\Local\\Temp\\ccrlRYSS.s
+        GNU C++17 (Rev7, Built by MSYS2 project) version 13.1.0 (x86_64-w64-mingw32)
+        	compiled by GNU C version 13.1.0, GMP version 6.2.1, MPFR version 4.2.0-p9, MPC version 1.3.1, isl version isl-0.26-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring nonexistent directory "A:/g++/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"
+        ignoring duplicate directory "A:/g++/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include/c++/13.1.0"
+        ignoring duplicate directory "A:/g++/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include/c++/13.1.0/x86_64-w64-mingw32"
+        ignoring duplicate directory "A:/g++/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include/c++/13.1.0/backward"
+        ignoring duplicate directory "A:/g++/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/include"
+        ignoring nonexistent directory "D:/a/msys64/mingw64/include"
+        ignoring nonexistent directory "/mingw64/include"
+        ignoring duplicate directory "A:/g++/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"
+        ignoring nonexistent directory "A:/g++/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"
+        ignoring nonexistent directory "D:/a/msys64/mingw64/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         A:/g++/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include/c++/13.1.0
+         A:/g++/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include/c++/13.1.0/x86_64-w64-mingw32
+         A:/g++/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include/c++/13.1.0/backward
+         A:/g++/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include
+         A:/g++/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include
+         A:/g++/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed
+        End of search list.
+        Compiler executable checksum: c73e5656f0f97359fe1dd2b3799d23f3
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_efb7f.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_efb7f.dir\\'
+         A:/g++/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_efb7f.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\ahmet\\AppData\\Local\\Temp\\ccrlRYSS.s
+        GNU assembler version 2.40 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.40
+        COMPILER_PATH=A:/g++/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/;A:/g++/mingw64/bin/../lib/gcc/;A:/g++/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/
+        LIBRARY_PATH=A:/g++/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/;A:/g++/mingw64/bin/../lib/gcc/;A:/g++/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/;A:/g++/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/;A:/g++/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/;A:/g++/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_efb7f.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_efb7f.dir\\CMakeCXXCompilerABI.cpp.'
+        Linking CXX executable cmTC_efb7f.exe
+        A:\\CMake\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_efb7f.dir\\link.txt --verbose=1
+        A:\\CMake\\bin\\cmake.exe -E rm -f CMakeFiles\\cmTC_efb7f.dir/objects.a
+        A:\\g++\\mingw64\\bin\\ar.exe qc CMakeFiles\\cmTC_efb7f.dir/objects.a @CMakeFiles\\cmTC_efb7f.dir\\objects1.rsp
+        A:\\g++\\mingw64\\bin\\g++.exe  -v -Wl,--whole-archive CMakeFiles\\cmTC_efb7f.dir/objects.a -Wl,--no-whole-archive -o cmTC_efb7f.exe -Wl,--out-implib,libcmTC_efb7f.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+        Using built-in specs.
+        COLLECT_GCC=A:\\g++\\mingw64\\bin\\g++.exe
+        COLLECT_LTO_WRAPPER=A:/g++/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/lto-wrapper.exe
+        Target: x86_64-w64-mingw32
+        Configured with: ../gcc-13.1.0/configure --prefix=/mingw64 --with-local-prefix=/mingw64/local --build=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --with-native-system-header-dir=/mingw64/include --libexecdir=/mingw64/lib --enable-bootstrap --enable-checking=release --with-arch=nocona --with-tune=generic --enable-languages=c,lto,c++,fortran,ada,objc,obj-c++,jit --enable-shared --enable-static --enable-libatomic --enable-threads=posix --enable-graphite --enable-fully-dynamic-string --enable-libstdcxx-filesystem-ts --enable-libstdcxx-time --disable-libstdcxx-pch --enable-lto --enable-libgomp --disable-libssp --disable-multilib --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-libiconv --with-system-zlib --with-gmp=/mingw64 --with-mpfr=/mingw64 --with-mpc=/mingw64 --with-isl=/mingw64 --with-pkgversion='Rev7, Built by MSYS2 project' --with-bugurl=https://github.com/msys2/MINGW-packages/issues --with-gnu-as --with-gnu-ld --disable-libstdcxx-debug --with-boot-ldflags=-static-libstdc++ --with-stage1-ldflags=-static-libstdc++
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 13.1.0 (Rev7, Built by MSYS2 project) 
+        COMPILER_PATH=A:/g++/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/;A:/g++/mingw64/bin/../lib/gcc/;A:/g++/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/
+        LIBRARY_PATH=A:/g++/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/;A:/g++/mingw64/bin/../lib/gcc/;A:/g++/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/;A:/g++/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/;A:/g++/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/;A:/g++/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_efb7f.exe' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_efb7f.'
+         A:/g++/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/collect2.exe -plugin A:/g++/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/liblto_plugin.dll -plugin-opt=A:/g++/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\ahmet\\AppData\\Local\\Temp\\ccRYsgg3.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_efb7f.exe A:/g++/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/crt2.o A:/g++/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o -LA:/g++/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0 -LA:/g++/mingw64/bin/../lib/gcc -LA:/g++/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LA:/g++/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib -LA:/g++/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib -LA:/g++/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../.. --whole-archive CMakeFiles\\cmTC_efb7f.dir/objects.a --no-whole-archive --out-implib libcmTC_efb7f.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 A:/g++/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/default-manifest.o A:/g++/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_efb7f.exe' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_efb7f.'
+        mingw32-make[1]: Leaving directory 'C:/Users/ahmet/Desktop/Tasks/Workspace/build/CMakeFiles/CMakeScratch/TryCompile-edtc28'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "A:/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
+      - "A:/CMake/share/cmake-3.27/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [A:/g++/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include/c++/13.1.0]
+          add: [A:/g++/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include/c++/13.1.0/x86_64-w64-mingw32]
+          add: [A:/g++/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include/c++/13.1.0/backward]
+          add: [A:/g++/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include]
+          add: [A:/g++/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include]
+          add: [A:/g++/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed]
+        end of search list found
+        collapse include dir [A:/g++/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include/c++/13.1.0] ==> [A:/g++/mingw64/include/c++/13.1.0]
+        collapse include dir [A:/g++/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include/c++/13.1.0/x86_64-w64-mingw32] ==> [A:/g++/mingw64/include/c++/13.1.0/x86_64-w64-mingw32]
+        collapse include dir [A:/g++/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include/c++/13.1.0/backward] ==> [A:/g++/mingw64/include/c++/13.1.0/backward]
+        collapse include dir [A:/g++/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include] ==> [A:/g++/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include]
+        collapse include dir [A:/g++/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include] ==> [A:/g++/mingw64/include]
+        collapse include dir [A:/g++/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed] ==> [A:/g++/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed]
+        implicit include dirs: [A:/g++/mingw64/include/c++/13.1.0;A:/g++/mingw64/include/c++/13.1.0/x86_64-w64-mingw32;A:/g++/mingw64/include/c++/13.1.0/backward;A:/g++/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include;A:/g++/mingw64/include;A:/g++/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "A:/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:152 (message)"
+      - "A:/CMake/share/cmake-3.27/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld\\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: 'C:/Users/ahmet/Desktop/Tasks/Workspace/build/CMakeFiles/CMakeScratch/TryCompile-edtc28']
+        ignore line: []
+        ignore line: [Run Build Command(s): A:/CMake/bin/cmake.exe -E env VERBOSE=1 A:/g++/mingw64/bin/mingw32-make.exe -f Makefile cmTC_efb7f/fast]
+        ignore line: [A:/g++/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_efb7f.dir\\build.make CMakeFiles/cmTC_efb7f.dir/build]
+        ignore line: [mingw32-make[1]: Entering directory 'C:/Users/ahmet/Desktop/Tasks/Workspace/build/CMakeFiles/CMakeScratch/TryCompile-edtc28']
+        ignore line: [Building CXX object CMakeFiles/cmTC_efb7f.dir/CMakeCXXCompilerABI.cpp.obj]
+        ignore line: [A:\\g++\\mingw64\\bin\\g++.exe   -v -o CMakeFiles\\cmTC_efb7f.dir\\CMakeCXXCompilerABI.cpp.obj -c A:\\CMake\\share\\cmake-3.27\\Modules\\CMakeCXXCompilerABI.cpp]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=A:\\g++\\mingw64\\bin\\g++.exe]
+        ignore line: [Target: x86_64-w64-mingw32]
+        ignore line: [Configured with: ../gcc-13.1.0/configure --prefix=/mingw64 --with-local-prefix=/mingw64/local --build=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --with-native-system-header-dir=/mingw64/include --libexecdir=/mingw64/lib --enable-bootstrap --enable-checking=release --with-arch=nocona --with-tune=generic --enable-languages=c,lto,c++,fortran,ada,objc,obj-c++,jit --enable-shared --enable-static --enable-libatomic --enable-threads=posix --enable-graphite --enable-fully-dynamic-string --enable-libstdcxx-filesystem-ts --enable-libstdcxx-time --disable-libstdcxx-pch --enable-lto --enable-libgomp --disable-libssp --disable-multilib --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-libiconv --with-system-zlib --with-gmp=/mingw64 --with-mpfr=/mingw64 --with-mpc=/mingw64 --with-isl=/mingw64 --with-pkgversion='Rev7, Built by MSYS2 project' --with-bugurl=https://github.com/msys2/MINGW-packages/issues --with-gnu-as --with-gnu-ld --disable-libstdcxx-debug --with-boot-ldflags=-static-libstdc++ --with-stage1-ldflags=-static-libstdc++]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 13.1.0 (Rev7  Built by MSYS2 project) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_efb7f.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_efb7f.dir\\']
+        ignore line: [ A:/g++/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/cc1plus.exe -quiet -v -iprefix A:/g++/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/ -D_REENTRANT A:\\CMake\\share\\cmake-3.27\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\\cmTC_efb7f.dir\\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=nocona -version -o C:\\Users\\ahmet\\AppData\\Local\\Temp\\ccrlRYSS.s]
+        ignore line: [GNU C++17 (Rev7  Built by MSYS2 project) version 13.1.0 (x86_64-w64-mingw32)]
+        ignore line: [	compiled by GNU C version 13.1.0  GMP version 6.2.1  MPFR version 4.2.0-p9  MPC version 1.3.1  isl version isl-0.26-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring nonexistent directory "A:/g++/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"]
+        ignore line: [ignoring duplicate directory "A:/g++/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include/c++/13.1.0"]
+        ignore line: [ignoring duplicate directory "A:/g++/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include/c++/13.1.0/x86_64-w64-mingw32"]
+        ignore line: [ignoring duplicate directory "A:/g++/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include/c++/13.1.0/backward"]
+        ignore line: [ignoring duplicate directory "A:/g++/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/include"]
+        ignore line: [ignoring nonexistent directory "D:/a/msys64/mingw64/include"]
+        ignore line: [ignoring nonexistent directory "/mingw64/include"]
+        ignore line: [ignoring duplicate directory "A:/g++/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"]
+        ignore line: [ignoring nonexistent directory "A:/g++/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"]
+        ignore line: [ignoring nonexistent directory "D:/a/msys64/mingw64/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ A:/g++/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include/c++/13.1.0]
+        ignore line: [ A:/g++/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include/c++/13.1.0/x86_64-w64-mingw32]
+        ignore line: [ A:/g++/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include/c++/13.1.0/backward]
+        ignore line: [ A:/g++/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include]
+        ignore line: [ A:/g++/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include]
+        ignore line: [ A:/g++/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed]
+        ignore line: [End of search list.]
+        ignore line: [Compiler executable checksum: c73e5656f0f97359fe1dd2b3799d23f3]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_efb7f.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_efb7f.dir\\']
+        ignore line: [ A:/g++/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_efb7f.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\ahmet\\AppData\\Local\\Temp\\ccrlRYSS.s]
+        ignore line: [GNU assembler version 2.40 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.40]
+        ignore line: [COMPILER_PATH=A:/g++/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/]
+        ignore line: [A:/g++/mingw64/bin/../lib/gcc/]
+        ignore line: [A:/g++/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/]
+        ignore line: [LIBRARY_PATH=A:/g++/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/]
+        ignore line: [A:/g++/mingw64/bin/../lib/gcc/]
+        ignore line: [A:/g++/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/]
+        ignore line: [A:/g++/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/]
+        ignore line: [A:/g++/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/]
+        ignore line: [A:/g++/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_efb7f.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_efb7f.dir\\CMakeCXXCompilerABI.cpp.']
+        ignore line: [Linking CXX executable cmTC_efb7f.exe]
+        ignore line: [A:\\CMake\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_efb7f.dir\\link.txt --verbose=1]
+        ignore line: [A:\\CMake\\bin\\cmake.exe -E rm -f CMakeFiles\\cmTC_efb7f.dir/objects.a]
+        ignore line: [A:\\g++\\mingw64\\bin\\ar.exe qc CMakeFiles\\cmTC_efb7f.dir/objects.a @CMakeFiles\\cmTC_efb7f.dir\\objects1.rsp]
+        ignore line: [A:\\g++\\mingw64\\bin\\g++.exe  -v -Wl --whole-archive CMakeFiles\\cmTC_efb7f.dir/objects.a -Wl --no-whole-archive -o cmTC_efb7f.exe -Wl --out-implib libcmTC_efb7f.dll.a -Wl --major-image-version 0 --minor-image-version 0 ]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=A:\\g++\\mingw64\\bin\\g++.exe]
+        ignore line: [COLLECT_LTO_WRAPPER=A:/g++/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/lto-wrapper.exe]
+        ignore line: [Target: x86_64-w64-mingw32]
+        ignore line: [Configured with: ../gcc-13.1.0/configure --prefix=/mingw64 --with-local-prefix=/mingw64/local --build=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --with-native-system-header-dir=/mingw64/include --libexecdir=/mingw64/lib --enable-bootstrap --enable-checking=release --with-arch=nocona --with-tune=generic --enable-languages=c,lto,c++,fortran,ada,objc,obj-c++,jit --enable-shared --enable-static --enable-libatomic --enable-threads=posix --enable-graphite --enable-fully-dynamic-string --enable-libstdcxx-filesystem-ts --enable-libstdcxx-time --disable-libstdcxx-pch --enable-lto --enable-libgomp --disable-libssp --disable-multilib --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-libiconv --with-system-zlib --with-gmp=/mingw64 --with-mpfr=/mingw64 --with-mpc=/mingw64 --with-isl=/mingw64 --with-pkgversion='Rev7, Built by MSYS2 project' --with-bugurl=https://github.com/msys2/MINGW-packages/issues --with-gnu-as --with-gnu-ld --disable-libstdcxx-debug --with-boot-ldflags=-static-libstdc++ --with-stage1-ldflags=-static-libstdc++]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 13.1.0 (Rev7  Built by MSYS2 project) ]
+        ignore line: [COMPILER_PATH=A:/g++/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/]
+        ignore line: [A:/g++/mingw64/bin/../lib/gcc/]
+        ignore line: [A:/g++/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/]
+        ignore line: [LIBRARY_PATH=A:/g++/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/]
+        ignore line: [A:/g++/mingw64/bin/../lib/gcc/]
+        ignore line: [A:/g++/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/]
+        ignore line: [A:/g++/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/]
+        ignore line: [A:/g++/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/]
+        ignore line: [A:/g++/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_efb7f.exe' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_efb7f.']
+        link line: [ A:/g++/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/collect2.exe -plugin A:/g++/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/liblto_plugin.dll -plugin-opt=A:/g++/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\ahmet\\AppData\\Local\\Temp\\ccRYsgg3.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_efb7f.exe A:/g++/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/crt2.o A:/g++/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o -LA:/g++/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0 -LA:/g++/mingw64/bin/../lib/gcc -LA:/g++/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LA:/g++/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib -LA:/g++/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib -LA:/g++/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../.. --whole-archive CMakeFiles\\cmTC_efb7f.dir/objects.a --no-whole-archive --out-implib libcmTC_efb7f.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 A:/g++/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/default-manifest.o A:/g++/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o]
+          arg [A:/g++/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/collect2.exe] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [A:/g++/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/liblto_plugin.dll] ==> ignore
+          arg [-plugin-opt=A:/g++/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/lto-wrapper.exe] ==> ignore
+          arg [-plugin-opt=-fresolution=C:\\Users\\ahmet\\AppData\\Local\\Temp\\ccRYsgg3.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmoldname] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
+          arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lpthread] ==> ignore
+          arg [-plugin-opt=-pass-through=-ladvapi32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lshell32] ==> ignore
+          arg [-plugin-opt=-pass-through=-luser32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmoldname] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
+          arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+          arg [-m] ==> ignore
+          arg [i386pep] ==> ignore
+          arg [-Bdynamic] ==> search dynamic
+          arg [-o] ==> ignore
+          arg [cmTC_efb7f.exe] ==> ignore
+          arg [A:/g++/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/crt2.o] ==> obj [A:/g++/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/crt2.o]
+          arg [A:/g++/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o] ==> obj [A:/g++/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o]
+          arg [-LA:/g++/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0] ==> dir [A:/g++/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0]
+          arg [-LA:/g++/mingw64/bin/../lib/gcc] ==> dir [A:/g++/mingw64/bin/../lib/gcc]
+          arg [-LA:/g++/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib] ==> dir [A:/g++/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib]
+          arg [-LA:/g++/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib] ==> dir [A:/g++/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib]
+          arg [-LA:/g++/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib] ==> dir [A:/g++/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib]
+          arg [-LA:/g++/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../..] ==> dir [A:/g++/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../..]
+          arg [--whole-archive] ==> ignore
+          arg [CMakeFiles\\cmTC_efb7f.dir/objects.a] ==> ignore
+          arg [--no-whole-archive] ==> ignore
+          arg [--out-implib] ==> ignore
+          arg [libcmTC_efb7f.dll.a] ==> ignore
+          arg [--major-image-version] ==> ignore
+          arg [0] ==> ignore
+          arg [--minor-image-version] ==> ignore
+          arg [0] ==> ignore
+          arg [-lstdc++] ==> lib [stdc++]
+          arg [-lmingw32] ==> lib [mingw32]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lmoldname] ==> lib [moldname]
+          arg [-lmingwex] ==> lib [mingwex]
+          arg [-lmsvcrt] ==> lib [msvcrt]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [-lpthread] ==> lib [pthread]
+          arg [-ladvapi32] ==> lib [advapi32]
+          arg [-lshell32] ==> lib [shell32]
+          arg [-luser32] ==> lib [user32]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [-lmingw32] ==> lib [mingw32]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lmoldname] ==> lib [moldname]
+          arg [-lmingwex] ==> lib [mingwex]
+          arg [-lmsvcrt] ==> lib [msvcrt]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [A:/g++/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/default-manifest.o] ==> obj [A:/g++/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/default-manifest.o]
+          arg [A:/g++/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o] ==> obj [A:/g++/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o]
+        remove lib [msvcrt]
+        remove lib [msvcrt]
+        collapse obj [A:/g++/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/crt2.o] ==> [A:/g++/mingw64/lib/crt2.o]
+        collapse obj [A:/g++/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o] ==> [A:/g++/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o]
+        collapse obj [A:/g++/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/default-manifest.o] ==> [A:/g++/mingw64/lib/default-manifest.o]
+        collapse obj [A:/g++/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o] ==> [A:/g++/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o]
+        collapse library dir [A:/g++/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0] ==> [A:/g++/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0]
+        collapse library dir [A:/g++/mingw64/bin/../lib/gcc] ==> [A:/g++/mingw64/lib/gcc]
+        collapse library dir [A:/g++/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib] ==> [A:/g++/mingw64/x86_64-w64-mingw32/lib]
+        collapse library dir [A:/g++/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib] ==> [A:/g++/mingw64/lib]
+        collapse library dir [A:/g++/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib] ==> [A:/g++/mingw64/x86_64-w64-mingw32/lib]
+        collapse library dir [A:/g++/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../..] ==> [A:/g++/mingw64/lib]
+        implicit libs: [stdc++;mingw32;gcc_s;gcc;moldname;mingwex;kernel32;pthread;advapi32;shell32;user32;kernel32;mingw32;gcc_s;gcc;moldname;mingwex;kernel32]
+        implicit objs: [A:/g++/mingw64/lib/crt2.o;A:/g++/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o;A:/g++/mingw64/lib/default-manifest.o;A:/g++/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o]
+        implicit dirs: [A:/g++/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0;A:/g++/mingw64/lib/gcc;A:/g++/mingw64/x86_64-w64-mingw32/lib;A:/g++/mingw64/lib]
+        implicit fwks: []
+      
+      
+...
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "A:/CMake/share/cmake-3.27/Modules/CMakeDetermineSystem.cmake:211 (message)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      The system is: Windows - 10.0.19045 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "A:/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "A:/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "A:/CMake/share/cmake-3.27/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: A:/cygwin/cygwin-b20/H-i586-cygwin32/bin/gcc.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
+      
+      The C compiler identification is GNU, found in:
+        C:/Users/ahmet/Desktop/Tasks/Workspace/build/CMakeFiles/3.27.4/CompilerIdC/a.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "A:/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "A:/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "A:/CMake/share/cmake-3.27/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: A:/cygwin/cygwin-b20/H-i586-cygwin32/bin/g++.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
+      
+      The CXX compiler identification is GNU, found in:
+        C:/Users/ahmet/Desktop/Tasks/Workspace/build/CMakeFiles/3.27.4/CompilerIdCXX/a.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "A:/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "A:/CMake/share/cmake-3.27/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/ahmet/Desktop/Tasks/Workspace/build/CMakeFiles/CMakeScratch/TryCompile-qenokz"
+      binary: "C:/Users/ahmet/Desktop/Tasks/Workspace/build/CMakeFiles/CMakeScratch/TryCompile-qenokz"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/ahmet/Desktop/Tasks/Workspace/build/CMakeFiles/CMakeScratch/TryCompile-qenokz'
+        
+        Run Build Command(s): A:/CMake/bin/cmake.exe -E env VERBOSE=1 A:/cygwin/cygwin-b20/H-i586-cygwin32/bin/make.exe -f Makefile cmTC_1e5e0/fast
+        //A/cygwin/cygwin-b20/H-i586-cygwin32/bin/make.exe  -f CMakeFiles/cmTC_1e5e0.dir/build.make CMakeFiles/cmTC_1e5e0.dir/build
+        make.exe: /bin/sh: Command not found
+        make.exe: *** [cmTC_1e5e0/fast] Error 127
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "A:/CMake/share/cmake-3.27/Modules/CMakeTestCCompiler.cmake:56 (try_compile)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Check for working C compiler: A:/cygwin/cygwin-b20/H-i586-cygwin32/bin/gcc.exe"
+    directories:
+      source: "C:/Users/ahmet/Desktop/Tasks/Workspace/build/CMakeFiles/CMakeScratch/TryCompile-gn3w3l"
+      binary: "C:/Users/ahmet/Desktop/Tasks/Workspace/build/CMakeFiles/CMakeScratch/TryCompile-gn3w3l"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_COMPILER_WORKS"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/ahmet/Desktop/Tasks/Workspace/build/CMakeFiles/CMakeScratch/TryCompile-gn3w3l'
+        
+        Run Build Command(s): A:/CMake/bin/cmake.exe -E env VERBOSE=1 A:/cygwin/cygwin-b20/H-i586-cygwin32/bin/make.exe -f Makefile cmTC_a44cb/fast
+        //A/cygwin/cygwin-b20/H-i586-cygwin32/bin/make.exe  -f CMakeFiles/cmTC_a44cb.dir/build.make CMakeFiles/cmTC_a44cb.dir/build
+        make.exe: /bin/sh: Command not found
+        make.exe: *** [cmTC_a44cb/fast] Error 127
+        
+      exitCode: 2
+...
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "A:/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "A:/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "A:/CMake/share/cmake-3.27/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: A:/cygwin/cygwin-b20/H-i586-cygwin32/bin/gcc.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
+      
+      The C compiler identification is GNU, found in:
+        C:/Users/ahmet/Desktop/Tasks/Workspace/build/CMakeFiles/3.27.4/CompilerIdC/a.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "A:/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "A:/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "A:/CMake/share/cmake-3.27/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: A:/cygwin/cygwin-b20/H-i586-cygwin32/bin/g++.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
+      
+      The CXX compiler identification is GNU, found in:
+        C:/Users/ahmet/Desktop/Tasks/Workspace/build/CMakeFiles/3.27.4/CompilerIdCXX/a.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "A:/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "A:/CMake/share/cmake-3.27/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/ahmet/Desktop/Tasks/Workspace/build/CMakeFiles/CMakeScratch/TryCompile-3rn8h9"
+      binary: "C:/Users/ahmet/Desktop/Tasks/Workspace/build/CMakeFiles/CMakeScratch/TryCompile-3rn8h9"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/ahmet/Desktop/Tasks/Workspace/build/CMakeFiles/CMakeScratch/TryCompile-3rn8h9'
+        
+        Run Build Command(s): A:/CMake/bin/cmake.exe -E env VERBOSE=1 A:/cygwin/cygwin-b20/H-i586-cygwin32/bin/make.exe -f Makefile cmTC_e6e7e/fast
+        //A/cygwin/cygwin-b20/H-i586-cygwin32/bin/make.exe  -f CMakeFiles/cmTC_e6e7e.dir/build.make CMakeFiles/cmTC_e6e7e.dir/build
+        make.exe: /bin/sh: Command not found
+        make.exe: *** [cmTC_e6e7e/fast] Error 127
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "A:/CMake/share/cmake-3.27/Modules/CMakeTestCCompiler.cmake:56 (try_compile)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Check for working C compiler: A:/cygwin/cygwin-b20/H-i586-cygwin32/bin/gcc.exe"
+    directories:
+      source: "C:/Users/ahmet/Desktop/Tasks/Workspace/build/CMakeFiles/CMakeScratch/TryCompile-xv1512"
+      binary: "C:/Users/ahmet/Desktop/Tasks/Workspace/build/CMakeFiles/CMakeScratch/TryCompile-xv1512"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_COMPILER_WORKS"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/ahmet/Desktop/Tasks/Workspace/build/CMakeFiles/CMakeScratch/TryCompile-xv1512'
+        
+        Run Build Command(s): A:/CMake/bin/cmake.exe -E env VERBOSE=1 A:/cygwin/cygwin-b20/H-i586-cygwin32/bin/make.exe -f Makefile cmTC_572c5/fast
+        //A/cygwin/cygwin-b20/H-i586-cygwin32/bin/make.exe  -f CMakeFiles/cmTC_572c5.dir/build.make CMakeFiles/cmTC_572c5.dir/build
+        make.exe: /bin/sh: Command not found
+        make.exe: *** [cmTC_572c5/fast] Error 127
+        
+      exitCode: 2
+...
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "A:/CMake/share/cmake-3.27/Modules/CMakeDetermineSystem.cmake:211 (message)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      The system is: Windows - 10.0.19045 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "A:/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "A:/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "A:/CMake/share/cmake-3.27/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild version 17.7.2+d6990bcfa for .NET Framework
+      Build started 8/29/2023 9:02:17 PM.
+      
+      Project "C:\\Users\\ahmet\\Desktop\\Tasks\\Workspace\\build\\CMakeFiles\\3.27.4\\CompilerIdC\\CompilerIdC.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Creating directory "Debug\\CompilerIdC.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        Touching "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+      ClCompile:
+        A:\\Microsoft Visual Studio\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        A:\\Microsoft Visual Studio\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> C:\\Users\\ahmet\\Desktop\\Tasks\\Workspace\\build\\CMakeFiles\\3.27.4\\CompilerIdC\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=A:\\Microsoft Visual Studio\\VC\\Tools\\MSVC\\14.37.32822\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
+      Done Building Project "C:\\Users\\ahmet\\Desktop\\Tasks\\Workspace\\build\\CMakeFiles\\3.27.4\\CompilerIdC\\CompilerIdC.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:02.15
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        C:/Users/ahmet/Desktop/Tasks/Workspace/build/CMakeFiles/3.27.4/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "A:/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "A:/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "A:/CMake/share/cmake-3.27/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild version 17.7.2+d6990bcfa for .NET Framework
+      Build started 8/29/2023 9:02:20 PM.
+      
+      Project "C:\\Users\\ahmet\\Desktop\\Tasks\\Workspace\\build\\CMakeFiles\\3.27.4\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Creating directory "Debug\\CompilerIdCXX.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        Touching "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+      ClCompile:
+        A:\\Microsoft Visual Studio\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        A:\\Microsoft Visual Studio\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> C:\\Users\\ahmet\\Desktop\\Tasks\\Workspace\\build\\CMakeFiles\\3.27.4\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=A:\\Microsoft Visual Studio\\VC\\Tools\\MSVC\\14.37.32822\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
+      Done Building Project "C:\\Users\\ahmet\\Desktop\\Tasks\\Workspace\\build\\CMakeFiles\\3.27.4\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:01.33
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        C:/Users/ahmet/Desktop/Tasks/Workspace/build/CMakeFiles/3.27.4/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "A:/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "A:/CMake/share/cmake-3.27/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/ahmet/Desktop/Tasks/Workspace/build/CMakeFiles/CMakeScratch/TryCompile-kxrxph"
+      binary: "C:/Users/ahmet/Desktop/Tasks/Workspace/build/CMakeFiles/CMakeScratch/TryCompile-kxrxph"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/ahmet/Desktop/Tasks/Workspace/build/CMakeFiles/CMakeScratch/TryCompile-kxrxph'
+        
+        Run Build Command(s): "A:/Microsoft Visual Studio/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_6a4fa.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.7.2+d6990bcfa for .NET Framework
+        Build started 8/29/2023 9:02:22 PM.
+        
+        Project "C:\\Users\\ahmet\\Desktop\\Tasks\\Workspace\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kxrxph\\cmTC_6a4fa.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_6a4fa.dir\\Debug\\".
+          Creating directory "C:\\Users\\ahmet\\Desktop\\Tasks\\Workspace\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kxrxph\\Debug\\".
+          Creating directory "cmTC_6a4fa.dir\\Debug\\cmTC_6a4fa.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_6a4fa.dir\\Debug\\cmTC_6a4fa.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_6a4fa.dir\\Debug\\cmTC_6a4fa.tlog\\unsuccessfulbuild".
+        ClCompile:
+          A:\\Microsoft Visual Studio\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_6a4fa.dir\\Debug\\\\" /Fd"cmTC_6a4fa.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "A:\\CMake\\share\\cmake-3.27\\Modules\\CMakeCCompilerABI.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.37.32822 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          CMakeCCompilerABI.c
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_6a4fa.dir\\Debug\\\\" /Fd"cmTC_6a4fa.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "A:\\CMake\\share\\cmake-3.27\\Modules\\CMakeCCompilerABI.c"
+        Link:
+          A:\\Microsoft Visual Studio\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\ahmet\\Desktop\\Tasks\\Workspace\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kxrxph\\Debug\\cmTC_6a4fa.exe" /INCREMENTAL /ILK:"cmTC_6a4fa.dir\\Debug\\cmTC_6a4fa.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/ahmet/Desktop/Tasks/Workspace/build/CMakeFiles/CMakeScratch/TryCompile-kxrxph/Debug/cmTC_6a4fa.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/ahmet/Desktop/Tasks/Workspace/build/CMakeFiles/CMakeScratch/TryCompile-kxrxph/Debug/cmTC_6a4fa.lib" /MACHINE:X64  /machine:x64 cmTC_6a4fa.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_6a4fa.vcxproj -> C:\\Users\\ahmet\\Desktop\\Tasks\\Workspace\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kxrxph\\Debug\\cmTC_6a4fa.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_6a4fa.dir\\Debug\\cmTC_6a4fa.tlog\\unsuccessfulbuild".
+          Touching "cmTC_6a4fa.dir\\Debug\\cmTC_6a4fa.tlog\\cmTC_6a4fa.lastbuildstate".
+        Done Building Project "C:\\Users\\ahmet\\Desktop\\Tasks\\Workspace\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kxrxph\\cmTC_6a4fa.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:01.31
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "A:/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "A:/CMake/share/cmake-3.27/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Users/ahmet/Desktop/Tasks/Workspace/build/CMakeFiles/CMakeScratch/TryCompile-yp440y"
+      binary: "C:/Users/ahmet/Desktop/Tasks/Workspace/build/CMakeFiles/CMakeScratch/TryCompile-yp440y"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/ahmet/Desktop/Tasks/Workspace/build/CMakeFiles/CMakeScratch/TryCompile-yp440y'
+        
+        Run Build Command(s): "A:/Microsoft Visual Studio/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_e4b07.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.7.2+d6990bcfa for .NET Framework
+        Build started 8/29/2023 9:02:23 PM.
+        
+        Project "C:\\Users\\ahmet\\Desktop\\Tasks\\Workspace\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yp440y\\cmTC_e4b07.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_e4b07.dir\\Debug\\".
+          Creating directory "C:\\Users\\ahmet\\Desktop\\Tasks\\Workspace\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yp440y\\Debug\\".
+          Creating directory "cmTC_e4b07.dir\\Debug\\cmTC_e4b07.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_e4b07.dir\\Debug\\cmTC_e4b07.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_e4b07.dir\\Debug\\cmTC_e4b07.tlog\\unsuccessfulbuild".
+        ClCompile:
+          A:\\Microsoft Visual Studio\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_e4b07.dir\\Debug\\\\" /Fd"cmTC_e4b07.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "A:\\CMake\\share\\cmake-3.27\\Modules\\CMakeCXXCompilerABI.cpp"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.37.32822 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          CMakeCXXCompilerABI.cpp
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_e4b07.dir\\Debug\\\\" /Fd"cmTC_e4b07.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "A:\\CMake\\share\\cmake-3.27\\Modules\\CMakeCXXCompilerABI.cpp"
+        Link:
+          A:\\Microsoft Visual Studio\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\ahmet\\Desktop\\Tasks\\Workspace\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yp440y\\Debug\\cmTC_e4b07.exe" /INCREMENTAL /ILK:"cmTC_e4b07.dir\\Debug\\cmTC_e4b07.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/ahmet/Desktop/Tasks/Workspace/build/CMakeFiles/CMakeScratch/TryCompile-yp440y/Debug/cmTC_e4b07.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/ahmet/Desktop/Tasks/Workspace/build/CMakeFiles/CMakeScratch/TryCompile-yp440y/Debug/cmTC_e4b07.lib" /MACHINE:X64  /machine:x64 cmTC_e4b07.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_e4b07.vcxproj -> C:\\Users\\ahmet\\Desktop\\Tasks\\Workspace\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yp440y\\Debug\\cmTC_e4b07.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_e4b07.dir\\Debug\\cmTC_e4b07.tlog\\unsuccessfulbuild".
+          Touching "cmTC_e4b07.dir\\Debug\\cmTC_e4b07.tlog\\cmTC_e4b07.lastbuildstate".
+        Done Building Project "C:\\Users\\ahmet\\Desktop\\Tasks\\Workspace\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yp440y\\cmTC_e4b07.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:01.33
+        
+      exitCode: 0
+...
