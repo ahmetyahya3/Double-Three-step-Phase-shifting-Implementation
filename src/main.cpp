@@ -6,7 +6,7 @@
 using namespace std;
 using namespace cv;
 
-double PI = acos(0.0);
+double PI = 3.14159265;
 
 int period = 10;
 double phaseShift = PI/3;
@@ -15,8 +15,8 @@ double dMapper(double value, double start, double end, double mappedStart, doubl
     return (value-start)*(mappedEnd-mappedStart)/(end-start)+mappedStart;
 }
 double normalizeRadian(double value){
+    value = fmod(value, 2*PI);
     if(value < 0) return value+2*PI;
-    if(value > 2*PI) return value-2*PI;
     return value;
 }
 
