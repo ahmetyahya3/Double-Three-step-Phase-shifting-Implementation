@@ -36,6 +36,7 @@ Mat sinusoidalPattern[6];
 
 int main(){
     for(int i = 0; i < 6; i++) sinusoidalPattern[i] = generateSinusoidalPattern(phaseShift*i);
+    
     for(int i = 0; i < 6; i++) {
         imshow(to_string(i), sinusoidalPattern[i]);
         waitKey(0);
