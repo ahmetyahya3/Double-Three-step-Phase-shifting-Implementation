@@ -66,7 +66,7 @@ int main(){
     waitKey(0);
 
     //averaged phase map
-    Mat averagedPhaseMap = (firstPhaseMap+secondPhaseMap);
+    Mat averagedPhaseMap = (firstPhaseMap+secondPhaseMap)/2;
     imshow("averagedPhaseMap", averagedPhaseMap);
     waitKey(0);
 
