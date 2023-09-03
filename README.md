@@ -1,3 +1,3 @@
-# Implementation for Kivi Technologies Intern Assignment
+# Implementation for Assignment
 
 This repository is double three-step phase-shifting algorithm implementation in C++ and OpenCV
